@@ -103,18 +103,18 @@ if uploaded_file is not None:
         st.pyplot(fig)
 
         # emoji stats
-        st.title(selected_user + " emoji stats")
-        emoji_df = stats.emoji_stats(selected_user, df)
+        # st.title(selected_user + " emoji stats")
+        # emoji_df = stats.emoji_stats(selected_user, df)
 
-        c1, c2 = st.columns(2)
-
-        with c1:
-            st.dataframe(emoji_df)
-        # with c2:
-        #     st.subheader(selected_user + " Most used emojis")
-        #     fig, ax = plt.subplots()
-        #     ax.pie(emoji_df[1].head(), labels=emoji_df[0].head(), autopct='%0.2f')
-        #     st.pyplot(fig)
+        # c1, c2 = st.columns(2)
+        #
+        # with c1:
+        #     st.dataframe(emoji_df)
+        # # with c2:
+        # #     st.subheader(selected_user + " Most used emojis")
+        # #     fig, ax = plt.subplots()
+        # #     ax.pie(emoji_df[1].head(), labels=emoji_df[0].head(), autopct='%0.2f')
+        # #     st.pyplot(fig)
 
         # monthly timeline
         st.title(selected_user + " monthly timeline")
