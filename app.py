@@ -39,7 +39,7 @@ if uploaded_file is not None:
     # footer
     space = ' <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> ' \
             '<br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>'
-    website = '<a href="https://portfolio-xi-six-17.vercel.app/" style="font-family:sans-serif; ' \
+    website = '<a href="https://gauravgarwa.vercel.app/" style="font-family:sans-serif; ' \
               'font-size: 14px; text-decoration: none;"> Gaurav Garwa </a> '
     st.sidebar.caption(space, unsafe_allow_html=True)
     st.sidebar.caption("Developed by " + website, unsafe_allow_html=True)
