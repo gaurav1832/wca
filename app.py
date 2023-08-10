@@ -65,11 +65,13 @@ if uploaded_file is not None:
             st.title(total_media)
 
         # displaying the links shared
+
         st.subheader("Total number of links shared")
         c1, c2 = st.columns(2)
         with c1:
             st.title(total_links)
-            st.write("expand or collapse ", links_list)
+        for i in links_list:
+            st.write(i)
 
         # finding the busiest person
         if selected_user == 'Overall':
