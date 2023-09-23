@@ -48,8 +48,8 @@ To run this WhatsApp Chat Analysis Web Application locally, follow these steps:
    ```bash
       python -m venv venv
 4.Activate the virtual environment:
- - On Windows : ```venv\Scripts\activate
- - On Mac/Linux : ``` source venv/bin/activate
+ - On Windows : ``` venv\Scripts\activate ```
+ - On Mac/Linux : ``` source venv/bin/activate ```
 
 ## Usage
 - Once you have installed the application, run it using the following command:
