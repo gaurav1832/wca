@@ -41,3 +41,29 @@ To run this WhatsApp Chat Analysis Web Application locally, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/whatsapp-chat-analysis.git
+2. Navigate to the project directory:
+   ``` bash
+   cd whatsapp-chat-analysis
+3. Create a virtual environment (recommended):
+   ```bash
+      python -m venv venv
+4.Activate the virtual environment:
+ - On Windows : ```venv\Scripts\activate
+ - On Mac/Linux : ``` source venv/bin/activate
+
+## Usage
+- Once you have installed the application, run it using the following command:
+
+```bash
+streamlit run app.py
+```
+
+ - A web browser window should open, and you can access the application locally at http://localhost:8501.
+
+- Upload your WhatsApp chat export file (typically a .txt file) to the application.
+
+- Explore the different analysis and extraction options available in the application's user interface.
+
+Export your results or findings for further analysis if needed.
+
+
